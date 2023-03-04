@@ -1,5 +1,5 @@
 # ToDo-App
-This is a simple TODO app created using Python and Html. It allows users to add, edit, and delete tasks on a to-do list. The app also includes a search feature that allows users to find specific tasks.
+This is a simple TODO app created using Java and Html. It allows users to add, edit, and delete tasks on a to-do list. The app also includes a search feature that allows users to find specific tasks.
 
 #Installation
 To use this app, simply clone the repository to your local machine and open the index.html file in your browser.
