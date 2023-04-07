@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title>To-do List</title>
+  </head>
+  <body>
+    <h1>To-do List</h1>
+    <form method="POST" action="{{ url_for('add') }}">
+      <label>Title:</label>
+      <input type="text" name="title">
+      <label>Priority:</label>
+      <select name="priority">
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+      <button type="submit">Add Task</button>
+    </form>
+    <ul>
+      {% for task in tasks %}
+      <li>
+        {{ task.title }} ({{ task.priority }})
+        <a href="{{ url_for('remove', index=loop.index0) }}">Remove</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
