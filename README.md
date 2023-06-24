@@ -15,7 +15,7 @@ Responsive design for mobile and desktop screens
 
 # Installation:
 
-Clone the repository using git clone https://github.com/your-username/ToDo-App.git
+Clone the repository using git clone https://github.com/vignan8/ToDo-App.git
 
 Navigate to the project directory using cd ToDo-App
 
